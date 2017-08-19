@@ -84,9 +84,9 @@ def Playlist_Data(header,profile):
     return playlist_data
 
 #Gathering of album information
-def Album_Data(header,profile):
+def Album_Data(header,profile,limit,offset):
     # Get user albums data
-    artist_api_endpoint = "{}/albums".format(profile["href"])
+    artist_api_endpoint = ("{}/albums?limit=" + str(limit) + "&offset=" + str(offset)).format(profile["href"])
     artist_response = requests.get(artist_api_endpoint, headers=header)
     artist_data = json.loads(artist_response.text)
     return artist_data
