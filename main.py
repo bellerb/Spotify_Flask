@@ -40,7 +40,7 @@ def callback():
         x = x + 1
 
     #Gathering of album data
-    artist_data = Album_Data(authorization_header,profile_data)
+    artist_data = Album_Data(authorization_header,profile_data,50,0)
     x = 0
     album_titles = []
     album_uri = []
