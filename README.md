@@ -1,4 +1,4 @@
-# Spotify-Flask
+# Spotify_Flask
 Written by: Ben Bellerose
 
 Reference: https://github.com/drshrey/spotify-flask-auth-example
