@@ -7,6 +7,7 @@ Description: This code will load user information, playlist, and album informati
 
 Dependencies:   
 -Flask
+-Python 2.7
 
 Instructions:
 1. Move to the main directory of your project in your terminal. (cd command)
